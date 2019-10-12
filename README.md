@@ -1,12 +1,6 @@
 # Hangman_cpp
 Simple hangman game programed in c++.
 
-To compile use the command:
-
-g++ hangman.cpp hangman_methods.cpp -o hangman.out
-
-in a folder with the 3 files.
-
 In the hangman.h file you will find one class:
                       
   hangman:      
@@ -25,3 +19,11 @@ In the hangman.h file you will find one class:
                       void losserMessage(): Deploy a message if the user lossed.
                       void winnerMessage(): Deploy a message if the user won.
                       void getGuess(): Deploy a message with the current guess and the attempts left.
+                      
+                      
+To compile use the command:
+
+g++ hangman.cpp hangman_methods.cpp -o hangman.out
+
+in a folder with the 3 files.
+
