@@ -1,5 +1,11 @@
 # Hangman_cpp
-Simple hangman game programed in c++
+Simple hangman game programed in c++.
+
+To compile use the command:
+
+g++ hangman.cpp hangman_methods.cpp -o hangman.out
+
+in a folder with the 3 files.
 
 In the hangman.h file you will find one class:
                       
